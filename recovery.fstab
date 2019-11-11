@@ -1,4 +1,4 @@
-/system         ext4    /dev/block/platform/bootdevice/by-name/system            flags=backup=1;wipeingui;barrier=1
+/system         ext4    /dev/block/platform/bootdevice/by-name/system            flags=backup=1;wipeingui
 /system_img     emmc    /dev/block/platform/bootdevice/by-name/system            flags=flashimg=1
 
 /vendor         ext4    /dev/block/platform/bootdevice/by-name/vendor            flags=display="Vendor";backup=1;wipeingui
